@@ -1,0 +1,97 @@
+:root {
+    --color-border: #0dcaf0;
+    --color-text: #ffffff;
+    --color-background: #212529;
+    --color-header: #1f2123;
+    --color-ul-task: #f1f1f1;
+  }
+  
+.button-menu {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.dropdown-user-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    background-color: var(--color-ul-task);
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 45px;
+    right: 0;
+    padding-left: 0;
+    border-radius: 8px;
+    border: 1px solid var(--color-border);
+  
+}
+
+.list-menu {
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-menu:hover {
+    color: var(--color-border);
+    text-shadow: 10px 15px 2px #000;
+  }
+
+.link {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--color-header);
+}
+.link:hover{
+    color: var(--color-border);
+}
+
+.list-menu-user:hover .menu-users {
+    display: block;
+}
+
+.menu-users {
+    right: 200px;
+    top: 80px;
+    height: 90px;
+}
+
+.user-delete {
+    color: black;
+}
+
+.button-delete-user,
+.button-add {
+    width: 180px;
+}
+
+.delete-id-user {
+    font-size: 20px;
+    width: 180px;
+    min-height: 45px;
+}
+
+.modal-title {
+    color: black;
+}
+
+.text-wrong {
+    color: red;
+    margin-bottom: 10px;
+}
+
+
